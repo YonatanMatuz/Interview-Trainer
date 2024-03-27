@@ -1,0 +1,10 @@
+services:
+  interview-trainer-service:
+    image: yonatanmatuz/interview-trainer-image:1.0.3
+    build: .
+    container_name: interview-trainer-container
+    ports:
+      - 443:3000
+    restart: unless-stopped
+
+    

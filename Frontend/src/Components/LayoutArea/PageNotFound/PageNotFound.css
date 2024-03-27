@@ -1,0 +1,26 @@
+.PageNotFound {
+    display: flex;
+    flex-direction: column;
+}
+
+.PageNotFound > img {
+    width: 700px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.PageNotFound button {
+    margin-top: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(86, 189, 253);
+    color: rgb(14, 13, 13);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.PageNotFound button:hover {
+    background-color: rgb(150, 219, 242);
+}

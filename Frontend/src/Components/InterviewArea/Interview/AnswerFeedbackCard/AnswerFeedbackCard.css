@@ -1,0 +1,41 @@
+.AnswerFeedbackCard {
+    height: 350px;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.fixedContainer { 
+    width: 600px;
+    max-height: 150px;
+    overflow: scroll;
+    scrollbar-color: transparent transparent;
+}
+
+.fixedColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("../../../../Assets/Images/FeedbackBackground.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5px auto;
+    width: 700px;
+    height: 230px;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+}
+
+.AnswerFeedbackCard > img {
+    width: 100px;
+    border-radius: 20px;
+}
+
+
+
+

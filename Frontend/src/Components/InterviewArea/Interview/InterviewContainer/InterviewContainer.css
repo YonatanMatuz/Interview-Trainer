@@ -1,0 +1,47 @@
+.InterviewContainer > form {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    background-image: url('../../../../Assets/Images/InterviewFormBackground.jpg');
+  }
+  
+  .InterviewContainer > form > input, select {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: lightgray;
+}
+
+.InterviewContainer > form > input[type="number"] {
+    text-align: center;
+    width: 60px;
+}
+
+.InterviewContainer > form > button {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(86, 189, 253);
+    color: rgb(14, 13, 13);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.InterviewContainer > form > button:hover {
+    background-color: rgb(150, 219, 242);
+}
+
+.InterviewContainer h1 {
+    margin-top: 5px;
+}
+
+

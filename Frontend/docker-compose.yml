@@ -1,6 +1,6 @@
 services:
   interview-trainer-service:
-    image: yonatanmatuz/interview-trainer-image:1.0.3
+    image: yonatanmatuz/interview-trainer-production-image:latest
     build: .
     container_name: interview-trainer-container
     ports:
